@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.transaction-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-top: none;
+}
+.lists-in-list {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.bin-image {
+  width: 35px;
+}

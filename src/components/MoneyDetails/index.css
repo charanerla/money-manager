@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.unordered-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media all and (min-width: 768px) {
+  .unordered-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  padding: 16px;
+}
+.amount-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media all and (max-width: 767px) {
+  .list-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 992px) {
+  .list-item {
+    width: 30%;
+  }
+}
+.type-name {
+  color: #7e858e;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.amount {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.custom-img {
+  width: 50px;
+}
+.balance-item {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-item {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses-item {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
